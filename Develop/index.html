@@ -4,13 +4,25 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon - SEO, Marketing, and PR</title>
 </head>
+<!--
+HTML <header> section. Declares the character set to be used (UTF-8), the stylesheet
+to be used for styling (a relative link to the file style.css in the folder css in
+a folder "assets" in the same folder as this html file, and the title of the page
+(displayed in the browser tab as text).
+-->
 
 <body>
-    <div class="header">
+
+    <!-- The actual header section of the webpage -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- Company logo-->
+        <!-- Span tag is used here to properly style the company logo - "seo" is a different color -->
+
+        <!-- Navbar listing services we offer-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,61 +34,97 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <!--- The list items are displayed side by side- clicking them scrolls down
+            to the section of the page dealing with that type of project.-->
+        </nav>
+    </header>
+    <!-- End of the header -->
+
+
+    <div class="main-image"></div>
+    <!-- Displays a large image below the header.-->
+
+    <!-- Change this image by adding a new image to the "assets/images" folder
+    and changing the reference of the "main-image" class in "assets/css/style.css"
+
+    For best results, use an image of at least 800 px (height) by 1400 px (width).
+    The height of the displayed image is fixed to 800 px, but the width will scale to 
+    the width of the browser window.
+    
+    If you change the image, remember to change the alt text.-->
+
+
+    <main>
+    <!-- The beginning of the main content, below the image-->
+        <section>
+            <img src="./assets/images/search-engine-optimization.jpg" alt = "Search Engine Optimization" class="float-left" />
+
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+        </section>
+
+        <section>
+            <img src="./assets/images/online-reputation-management.jpg" alt = "Online Reputation Management" class="float-right" />
+
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+        </section>
+
+        <section>
+            <img src="./assets/images/social-media-marketing.jpg" alt = "Social Media Marketing" class="float-left" />
+
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section>
+     <!-- End of the main content-->   
+    </main>
+
+    <!-- The sidebar content on the right side of the page-->
+    <aside>
+        <div class="sidebar-content">
+        <!-- Section tag was used for main content sections, and aside tag was used
+        for styling the sidebar in general, so sidebar content gets a special class-->
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+
+        <div class="sidebar-content">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+
+        <div class="sidebar-content">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+
+    </aside>
+    <!-- End of sidebar content -->
+
+    <footer>
+        <h2>Made with <span class = "heart-emoji">❤️</span> by Horiseon</h2>
+        <!-- The heart-emoji class flags that the heart emoji is an image and adds
+        alt text for accessibility purposes. -->
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
+
 </body>
 
 </html>

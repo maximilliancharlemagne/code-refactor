@@ -14,4 +14,4 @@ This homework involves editing, or "refactoring" the HTML and CSS of an example 
 
 The website is deployed at maximilliancharlemagne.github.io/code-refactor
 
-![a screenshot of the webpage](./assets/images/web-screncap.PNG)
+![a screenshot of the webpage](./assets/images/web-screencap.PNG)

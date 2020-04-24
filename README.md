@@ -10,3 +10,8 @@ This homework involves editing, or "refactoring" the HTML and CSS of an example 
   (2) make the code more maintainable in general by
       (2a) adding comments and 
       (2b) improving organization and cleanliness.
+
+
+The website is deployed at maximilliancharlemagne.github.io/code-refactor
+
+![a screenshot of the webpage](./assets/images/web-screencap.PNG)

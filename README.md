@@ -1,7 +1,8 @@
 # code-refactor
-UCI Boot Camp Homework 1
 
-This homework involves editing, or "refactoring" the HTML and CSS of an example webpage in order to:
+This is an assignment I completed for the Coding Boot Camp at UC Irvine.
+
+The assignment was to edit, or "refactor" the HTML and CSS of an example webpage in order to:
   
   (1) not get sued for Americans with Disabilities Act noncompliance by
       (1a) including alt text for all images and 
